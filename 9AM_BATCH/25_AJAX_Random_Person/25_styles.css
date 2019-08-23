@@ -1,0 +1,18 @@
+.t_card{
+    box-shadow: 0 0 10px #003737;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.t_card:hover{
+    background-color: #003737;
+    color: white;
+    transform:perspective(400px) rotateY(10deg);
+}
+.t_card:hover .fab{
+    color: white;
+}
+.t_image{
+    box-shadow: 0 0 10px #003737;
+    border-radius: 10px;
+    margin-top: -50px;
+}
